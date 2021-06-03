@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html{
+    background-color: rgb(25,25,25); 
+}
+
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+}
+
+header{
+    font-size: 2rem;
+    text-align: center;
+    color: #008b8b;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: palevioletred;
+}
+.is-prime {
+	color: #00E676;
+}
+
+.not-prime {
+	color: #FF3D00;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+form{
+    font: size 40pt;
+    text-align: center;
+    color: palevioletred;
+  }
+  
+button{
+    border-radius: 5px;
+    background-color: pink;
+    height:1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    color: #008b8b;
+  }

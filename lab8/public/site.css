@@ -1,0 +1,121 @@
+body {
+    background: #fefefe;
+    font-family: American Typewriter, serif;
+    font-size: 15pt;
+  }
+  
+main {
+    max-width: 75%;
+    margin: auto;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+header {
+    border-bottom: 1px solid #afafaf;
+  }
+
+h1 {
+    font-size: 3rem;
+    color: darkblue;
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    color: darkmagenta;
+    text-align: center;
+    font-style: italic;
+}
+p {
+    font-size: 1rem;
+    line-height: 2;
+    color: darkcyan;
+    
+  }
+
+/* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+  ul {
+    list-style: none; /* Remove default bullets */
+    text-align: center;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color:pink;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.content{
+    font: size 30pt;
+  }
+
+.title{
+    font-size:30pt;
+    text-decoration: underline;
+}
+.error{
+    font: size 40pt;
+    color: red;
+}
+
+.form{
+  font: size 40pt;
+  text-align: center;
+  color: palevioletred;
+}
+
+.lang{
+  font-style: italic;
+}
+
+button{
+    border:1px solid mediumslateblue;
+    border-radius: 5px;
+    background-color: pink;
+    height:1.25rem;
+}
+#formInput{
+    border:5 px solid plum;
+    border-radius: 10px;
+    background-color:white;
+    height:1.25rem;
+}
+
+.show-details dt{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.show-details li{
+  font: size 10pt;
+}
+
+.genres{
+  background-color: pink;
+}
+
+.name{
+  font-weight: bold;
+  font: size 50pt;
+}
+
+.searchTerm{
+  background-color: lightblue;
+}
+
+.not-found{
+  font: size 40pt;
+  color: red;
+}
+
+.form label {
+  background-color: lightblue;
+  padding: 8px;
+}

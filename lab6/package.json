@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "simple server that provides an API for someone to Create, Read, Update, and Delete books and also book reviews.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Aparajita Rana 10440384",
+  "license": "ISC"
+}
